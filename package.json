@@ -1,0 +1,26 @@
+{
+  "name": "trivo-travel",
+  "version": "1.0.0",
+  "description": "Trivo-Travel — Complete Full-Stack AI Travel Platform",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,green\" \"npm run dev:server\" \"npm run dev:client\"",
+    "install:all": "npm.cmd --prefix server install && npm.cmd --prefix client install",
+    "dev:server": "npm.cmd --prefix server run dev",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "build:client": "npm.cmd --prefix client run build",
+    "build:server": "npm.cmd --prefix server run build",
+    "build": "npm.cmd --prefix server run build && npm.cmd --prefix client run build"
+  },
+  "keywords": [
+    "travel",
+    "ai",
+    "planner",
+    "maps",
+    "itinerary"
+  ],
+  "author": "Trivo-Travel Team",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

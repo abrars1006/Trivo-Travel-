@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+*.log
+
+# Server build output
+server/dist/
+
+# Vite client build output
+client/dist/
+
+# Accidental copy folders
+client - Copy/
