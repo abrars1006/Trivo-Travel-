@@ -219,4 +219,4 @@ For the 3-member presentation, follow this 5-minute showcase protocol:
 - Meteorological data provided by Open-Meteo API.
 - Built for Academic & Technology Expo Showcase.
 #   T r i v o - T r a v e l -  
- 
+ # Trivo-Travel-
